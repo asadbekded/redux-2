@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useRef } from "react";
 import { useDispatch } from "react-redux";
+import { Link, useNavigate } from "react-router-dom";
 import { tokenAction } from "../../redux/token/tokenAction";
 import { userAction } from "../../redux/user/userAction";
 
@@ -11,6 +12,7 @@ export const Register = () => {
   const password = useRef();
 
   const dispatch = useDispatch()
+  const navigate = useNavigate();
 
   const handleForm = (evt) => {
     evt.preventDefault();
@@ -29,6 +31,7 @@ export const Register = () => {
             dispatch(tokenAction(res.data.accessToken))
             localStorage.setItem('user', JSON.stringify(res.data.user))
             dispatch(userAction(res.data.user))
+            navigate('/')
         }
       })
       .catch((err) => console.log(err));
@@ -37,6 +40,7 @@ export const Register = () => {
   return (
     <div style={{ width: "400px", margin: "10% auto" }}>
       <h3>Register</h3>
+      <p>Akaunt bormi ? <Link to='/' >Login</Link> </p>
       <form onSubmit={handleForm}>
         <div className="mb-3">
           <input

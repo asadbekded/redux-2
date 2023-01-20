@@ -11,12 +11,11 @@ import { userAction } from "./redux/user/userAction";
 
 function App() {
   const token = useSelector((state) => state.token.token);
-
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(tokenAction("token", localStorage.getItem("token")));
-    dispatch(userAction("user", JSON.parse(localStorage.getItem("user"))));
+    dispatch(tokenAction(localStorage.getItem("token")));
+    dispatch(userAction(JSON.parse(localStorage.getItem("user"))));
   }, []);
 
   if (token) {

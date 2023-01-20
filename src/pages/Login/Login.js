@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useRef } from "react";
 import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 import { tokenAction } from "../../redux/token/tokenAction";
 import { userAction } from "../../redux/user/userAction";
 
@@ -33,6 +34,7 @@ export const Login = () => {
   return (
     <div style={{ width: "400px", margin: "10% auto" }}>
       <h3>Login</h3>
+      <p>Akaunt yoqmi ? <Link to='/register' >Register</Link> </p>
       <form onSubmit={handleForm}>
         <div className="mb-3">
           <input

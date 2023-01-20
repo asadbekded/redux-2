@@ -34,11 +34,25 @@
       "first_name": "Otabek",
       "last_name": "Mustofoyev",
       "id": 5
+    },
+    {
+      "email": "sulton@gmail.com",
+      "password": "$2a$10$RZBOrAwR6Uj8cI7ivM8vg.yzCa5fOH4DnMA7lI8Mh04fqi1WDgFCa",
+      "first_name": "Sulton",
+      "last_name": "Mahkambekov",
+      "id": 6
+    },
+    {
+      "email": "akmal@gmail.com",
+      "password": "$2a$10$Oa/Ci8qa7MnEs3zh3b4OEeHsVcY6.Y7tNLizdnF4uO.GCoCaF5OWu",
+      "first_name": "Akmal",
+      "last_name": "Nematov",
+      "id": 7
     }
   ],
   "todos": [
     {
-      "user_todo": "Frontendni organib ishga kirish omin",
+      "user_todo": "JavaScript method",
       "isComplete": false,
       "id": 1
     },
@@ -46,6 +60,11 @@
       "user_todo": "React hooks ",
       "isComplete": false,
       "id": 2
+    },
+    {
+      "user_todo": "Redux toolkit",
+      "isComplete": false,
+      "id": 3
     }
   ]
 }
