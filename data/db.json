@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "email": "jonibek@gmail.com",
+      "password": "$2a$10$UyNtJJy5P1koOyjbjNbg2OpSi49xUr5cm.ZVJ1jTVtpIFN.A1B2/S",
+      "first_name": "Jonibek",
+      "last_name": "Qodirov",
+      "id": 1
+    },
+    {
+      "email": "asadbek@gmail.com",
+      "password": "$2a$10$nHU4FS2SBhqz6HGvlzOKH.A/OV4QzQnXp9xR5BS7KylaxRzz7H4Iy",
+      "first_name": "Ergashev",
+      "last_name": "Asadbek",
+      "id": 2
+    },
+    {
+      "email": "fara@gmail.com",
+      "password": "$2a$10$i5qFSnVdzef9nXz1hI5fz.ACzbmXDq9JVCsgIwwlzkl514PZwqC1a",
+      "first_name": "Farxod",
+      "last_name": "Nematov",
+      "id": 3
+    },
+    {
+      "email": "ravshanjon@gmail.com",
+      "password": "$2a$10$R5a.clHFpzTJ.QC4d.SobORrrjCNYVUsoNn9CgH8HKqY3GXVw0Emi",
+      "first_name": "Ravshanjon",
+      "last_name": "Zakirov",
+      "id": 4
+    },
+    {
+      "email": "otabek@gmail.com",
+      "password": "$2a$10$mTsQX4wzp3M16PK.koYzou2HBywGpZ3O9sqYTlpp/cA5eqNu.jIpG",
+      "first_name": "Otabek",
+      "last_name": "Mustofoyev",
+      "id": 5
+    }
+  ],
+  "todos": [
+    {
+      "user_todo": "Frontendni organib ishga kirish omin",
+      "isComplete": false,
+      "id": 1
+    },
+    {
+      "user_todo": "React hooks ",
+      "isComplete": false,
+      "id": 2
+    }
+  ]
+}
